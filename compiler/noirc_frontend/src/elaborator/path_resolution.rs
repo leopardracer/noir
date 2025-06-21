@@ -157,7 +157,7 @@ pub(super) enum PathResolutionMode {
     MarkAsUsed,
 }
 
-/// Depenending on where a path appears in the source code it should either resolve to a type
+/// Depending on where a path appears in the source code it should either resolve to a type
 /// or a value. For example, in `let x: Foo::Bar = Foo::Bar {}` both `Foo::Bar` should resolve to
 /// types, never values. On the other hand, in `Foo::Bar()` `Foo::Bar` should resolve to a value,
 /// typically a function.

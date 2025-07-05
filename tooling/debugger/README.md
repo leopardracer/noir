@@ -210,7 +210,7 @@ Now we can see that register 0 was initialized with a value of 1, so the `JumpIf
 ```
 > i
 At opcode 1.2: BinaryFieldOp { destination: RegisterIndex(0), op: Div, lhs: RegisterIndex(1), rhs: RegisterIndex(0) }
-> regist
+> register
 0 = 1
 1 = 1
 >

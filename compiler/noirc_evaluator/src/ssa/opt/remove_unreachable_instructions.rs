@@ -4,7 +4,7 @@
 //! then removes those subsequent instructions and replaces the block's terminator
 //! with a special `unreachable` value.
 //!
-//! This pass might also add constrain checks after existing instuctions,
+//! This pass might also add constrain checks after existing instructions,
 //! for example binary operations that are guaranteed to overflow.
 use acvm::AcirField;
 
